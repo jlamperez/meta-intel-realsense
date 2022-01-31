@@ -1,1 +1,1 @@
-DISTRO_FEATURES:append = " opengl"
+DISTRO_FEATURES_append = " opengl"

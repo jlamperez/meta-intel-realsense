@@ -25,6 +25,6 @@ do_install() {
     install -m 0644 ${B}/wrappers/python/*.so ${D}/${PYTHON_SITEPACKAGES_DIR}/pyrealsense2
 }
 
-FILES:${PN} += "\
+FILES_${PN} += "\
     ${PYTHON_SITEPACKAGES_DIR}/pyrealsense2 \
 "
